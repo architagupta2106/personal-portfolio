@@ -216,6 +216,20 @@ nav .navlinks li a{
     background-color: #f4f4f4; /* or any other background color */
     text-align: center;
 }
+.about-us-section {
+    padding: 50px 20px;
+    background: url('https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover; /* Replace 'about-bg.jpg' with your image path */
+    color: white; /* Change text color to be visible on the image background */
+    text-align: center;
+}
+
+.about-us-section {
+    padding: 50px 20px;
+    background: linear-gradient(to right, #00c6ff, #0072ff); /* Gradient from light to dark blue */
+    color: white; /* Change text color to be visible on the gradient */
+    text-align: center;
+}
+
 
 .about-me-section h2 {
     font-size: 2em;
