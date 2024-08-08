@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
-    <div class="hero-header">
+     <div class="hero-header">
         <div class="wrapper">
             <header>
                 <div class="logo">
@@ -26,50 +26,39 @@
                     <ul class="navlinks">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Resume</a></li>
-                        <li><a href="https://github.com/architagupta2106" type="button" class="cta">Github</a></li>
+                         <li><a href="https://github.com/architagupta2106" type="button" class="cta">Github</a></li>
                         <li><a href="#">Contact</a></li>
-                        <li><a href="#about-me">About Me</a></li>
+                         <li><a href="#">About Us</a></li>
                     </ul>
                 </nav>
             </header>
             <div class="container">
-                <div class="hero-pic">
+                 <div class="hero-pic">
                     <img src="main_photo.jpg" alt="profile pic">
-                </div>
-                <div class="hero-text">
+                 </div>
+                 <div class="hero-text">
                     <h5>Hi I'm <span class="input">Frontend Developer</span></h5>
                     <h1>Archita Kumari Gupta</h1>
-                    <p>I am Frontend Developer!</p>
+                    <p> I am Frontend Developer!
+                    </p>
+
                     <div class="btn-group">
-                        <a href="#" class="btn active">Download CV</a>
-                        <a href="tel:7047260324" type="button" class="btn">Contact</a>
+                       <a href="#" class="btn active">Download CV</a>
+                       <a href="tel:7047260324" type="button"  class="btn">Contact</a>
                     </div>
+
                     <div class="social">
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/__archita_gupta__/?utm_source=ig_web_button_share_sheet"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="https://www.instagram.com/_archita_gupta_/?utm_source=ig_web_button_share_sheet"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-pintrest"></i></a>
                     </div>
-                </div>
+                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- About Me Section -->
-    <div id="about-us" class="about-us-section">
-        <div class="wrapper">
-            <h2>About Me</h2>
-            <p>
-                Proficient in HTML for structuring web pages and creating interactive user interfaces.<br>
-                Experienced in C programming in Data Structure Algorithm, including application logic and algorithm implementation.<br>
-                Skilled in CSS for styling and enhancing the visual appeal of web applications.<br>
-                Strong understanding of Data Structures & Algorithms, utilizing efficient techniques for problem-solving and software development.
-            </p>
-        </div>
-    </div>
-
-    <!---typed js for typing text effect-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
-    <script>
+     </div>
+     <!---typed js for typing text effect-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+     <script>
         /** creating button click show hide navbar **/
         var togglebtn=document.querySelector(".togglebtn");
         var nav=document.querySelector(".navlinks");
@@ -78,14 +67,14 @@
         togglebtn.addEventListener("click", function(){
             this.classList.toggle("click");
             nav.classList.toggle("open");
-        });
+        })
 
         var typed=new Typed(".input",{
             strings:["Frontend Developer","UX Designer","Web Developer"],
             typedSpeed:70,
             backSpeed:55,
             loop:true
-        });
-    </script>
+        })
+     </script>
 </body>
 </html>
