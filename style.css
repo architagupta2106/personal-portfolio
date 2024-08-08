@@ -211,18 +211,18 @@ nav .navlinks li a{
     .hero-text{
         padding:40px 0px;
     }
-.about-us-section {
+.about-me-section {
     padding: 50px 20px;
     background-color: #f4f4f4; /* or any other background color */
     text-align: center;
 }
 
-.about-us-section h2 {
+.about-me-section h2 {
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-.about-us-section p {
+.about-me-section p {
     font-size: 1.2em;
     line-height: 1.5;
     max-width: 800px;
